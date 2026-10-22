@@ -20,3 +20,31 @@ body {
     box-sizing: border-box;
     text-align: center;
 }
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #3D5A80;
+    margin-bottom: 15px;
+}
+
+h1 {
+    color: #293241;
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+h2 {
+    color: #3D5A80;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 8px 0 15px;
+}
+
+p {
+    font-size: 0.9rem;
+    line-height: 1.7;
+    margin: 0 0 22px;
+}
